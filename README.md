@@ -1,6 +1,6 @@
 # Anonymous reproducibility materials
 
-This repository accompanies *Do Simulated Users Reveal Behaviorally Observable States in Human--LLM Decision Making?* It contains analysis-ready simulated-user trajectories, aggregate/de-identified human summaries, deterministic plotting code, and validation checks for the manuscript figures.
+This repository accompanies *Do Simulated Users Reveal Behaviorally Observable States During Human--LLM Joint Decision Making?* It contains analysis-ready simulated-user trajectories, aggregate/de-identified human summaries, deterministic plotting code, and validation checks for the manuscript figures.
 
 ## Scope and privacy
 
@@ -50,7 +50,3 @@ Outputs are written to `results/dynamic_analysis/`. This analysis uses only the 
 ## Reproducibility notes
 
 Plot generation is deterministic. The dynamic analysis uses seed `20260812` for bootstrap resampling. The public tables retain manuscript precision; `checks/validate_outputs.py` verifies focal values and the expected PDF outputs.
-
-## Release boundary
-
-The package reproduces the published plots and the simulated-user dynamic analysis. Human-data cleaning and participant-level analysis require protected study records and are intentionally outside this anonymous public release. Aggregate human figure tables permit exact reproduction of the displayed human results without exposing participant-level data.
