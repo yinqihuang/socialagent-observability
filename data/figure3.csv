@@ -1,0 +1,12 @@
+panel,state,display_label,manipulation,model,value,delta_r2,n
+a,intended_action,AI advice → action,direction_high,,1.2520788194998402,,480
+a,uncertainty,AI confidence → reported confidence,confidence_high,,1.4788721179065332,,480
+a,information_need,AI confidence → info. need,confidence_high,,-0.6083446897424913,,480
+b,urgency,,,context_only,0.6788133170470771,-0.00064979623397865,2362
+b,urgency,,,context_plus_behavior,0.6781635208130985,-0.00064979623397865,2362
+b,information_need,,,context_only,0.5386093350331431,0.06868233810316582,2362
+b,information_need,,,context_plus_behavior,0.6072916731363089,0.06868233810316582,2362
+b,intended_action,,,context_only,0.7165172151022724,0.0032110483985764438,2362
+b,intended_action,,,context_plus_behavior,0.7197282635008488,0.0032110483985764438,2362
+b,uncertainty,,,context_only,0.7256753446345166,0.01839741198868272,2362
+b,uncertainty,,,context_plus_behavior,0.7440727566231993,0.01839741198868272,2362

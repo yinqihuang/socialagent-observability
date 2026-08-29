@@ -1,0 +1,113 @@
+source,case_reference,state,turn_index,n,mean,sem
+Human,Calling an ambulance,urgency,0,78,35.03846153846154,2.2938800209137113
+Human,Calling an ambulance,information_need,0,78,71.3974358974359,2.6124614752318056
+Human,Calling an ambulance,intended_action,0,78,27.076923076923077,2.170992829802997
+Human,Calling an ambulance,uncertainty,0,78,56.92307692307692,3.041546548197407
+Human,Calling an ambulance,urgency,1,71,43.436619718309856,3.137347711318715
+Human,Calling an ambulance,information_need,1,71,67.3943661971831,2.564615971207857
+Human,Calling an ambulance,intended_action,1,71,37.352112676056336,2.956498730777718
+Human,Calling an ambulance,uncertainty,1,71,50.690140845070424,2.8562890157276644
+Human,Calling an ambulance,urgency,2,64,47.21875,3.2475928776569174
+Human,Calling an ambulance,information_need,2,64,60.640625,3.2062351818634034
+Human,Calling an ambulance,intended_action,2,64,41.421875,3.110466576761243
+Human,Calling an ambulance,uncertainty,2,64,48.0625,3.3082295023888815
+Human,Calling an ambulance,urgency,3,63,54.23809523809524,3.1192147092355578
+Human,Calling an ambulance,information_need,3,63,58.333333333333336,3.0134533641115753
+Human,Calling an ambulance,intended_action,3,63,46.19047619047619,2.942864102517633
+Human,Calling an ambulance,uncertainty,3,63,46.19047619047619,3.280913253686641
+Human,Calling an ambulance,urgency,4,55,63.127272727272725,3.300245327627677
+Human,Calling an ambulance,information_need,4,55,46.981818181818184,3.831861018009484
+Human,Calling an ambulance,intended_action,4,55,54.872727272727275,3.645767302301164
+Human,Calling an ambulance,uncertainty,4,55,39.07272727272727,3.5904713537909805
+Human,Calling an ambulance,urgency,5,29,64.20689655172414,5.048381516566465
+Human,Calling an ambulance,information_need,5,29,48.86206896551724,5.5822828764879535
+Human,Calling an ambulance,intended_action,5,29,58.27586206896552,4.7847501367617635
+Human,Calling an ambulance,uncertainty,5,29,29.06896551724138,4.853755601046121
+Human,Calling an ambulance,urgency,6,5,64.6,12.34341929936758
+Human,Calling an ambulance,information_need,6,5,68.6,7.0185468581466335
+Human,Calling an ambulance,intended_action,6,5,51.0,17.10847743079436
+Human,Calling an ambulance,uncertainty,6,5,58.0,12.810152223919902
+Human,Self-care,urgency,0,79,32.721518987341774,2.2821106003500446
+Human,Self-care,information_need,0,79,71.58227848101266,2.3373828352064328
+Human,Self-care,intended_action,0,79,26.696202531645568,2.159071232034343
+Human,Self-care,uncertainty,0,79,54.25316455696203,2.8494331337165475
+Human,Self-care,urgency,1,68,40.98529411764706,2.8050885537079693
+Human,Self-care,information_need,1,68,68.01470588235294,2.6013683040166744
+Human,Self-care,intended_action,1,68,33.38235294117647,2.804034893162719
+Human,Self-care,uncertainty,1,68,53.838235294117645,2.9725559378063697
+Human,Self-care,urgency,2,65,43.98461538461538,2.886431479593883
+Human,Self-care,information_need,2,65,62.53846153846154,2.474492656147002
+Human,Self-care,intended_action,2,65,35.58461538461538,3.056982259115087
+Human,Self-care,uncertainty,2,65,52.96923076923077,2.72241137020823
+Human,Self-care,urgency,3,63,43.92063492063492,3.218076630193736
+Human,Self-care,information_need,3,63,56.80952380952381,2.7829722479667245
+Human,Self-care,intended_action,3,63,35.76190476190476,3.2291486599340797
+Human,Self-care,uncertainty,3,63,49.23809523809524,2.83210999936387
+Human,Self-care,urgency,4,60,40.55,3.4866513000493167
+Human,Self-care,information_need,4,60,49.36666666666667,3.3936603130175915
+Human,Self-care,intended_action,4,60,33.63333333333333,3.615719498978302
+Human,Self-care,uncertainty,4,60,42.43333333333333,3.0849888668925893
+Human,Self-care,urgency,5,52,32.82692307692308,3.4723342210347123
+Human,Self-care,information_need,5,52,45.13461538461539,3.777266766839306
+Human,Self-care,intended_action,5,52,28.615384615384617,3.638153967082824
+Human,Self-care,uncertainty,5,52,38.21153846153846,3.3807342257748454
+Human,Self-care,urgency,6,30,29.766666666666666,4.614490752424861
+Human,Self-care,information_need,6,30,36.233333333333334,4.570189093734571
+Human,Self-care,intended_action,6,30,25.5,4.4948885401649
+Human,Self-care,uncertainty,6,30,31.53333333333333,3.5773017936155966
+Simulation,Calling an ambulance,urgency,0,16,40.0,0.0
+Simulation,Calling an ambulance,information_need,0,16,76.25,1.25
+Simulation,Calling an ambulance,intended_action,0,16,20.0,0.0
+Simulation,Calling an ambulance,uncertainty,0,16,68.75,1.25
+Simulation,Calling an ambulance,urgency,1,16,80.625,1.106326503945979
+Simulation,Calling an ambulance,information_need,1,16,54.375,2.576941016011038
+Simulation,Calling an ambulance,intended_action,1,16,71.5625,3.5858155162621874
+Simulation,Calling an ambulance,uncertainty,1,16,36.5625,3.5858155162621874
+Simulation,Calling an ambulance,urgency,2,16,81.25,1.7380544678845171
+Simulation,Calling an ambulance,information_need,2,16,40.625,3.2234492395569063
+Simulation,Calling an ambulance,intended_action,2,16,72.1875,3.898951515044354
+Simulation,Calling an ambulance,uncertainty,2,16,29.6875,2.9036166384929913
+Simulation,Calling an ambulance,urgency,3,16,86.875,1.1967838846954233
+Simulation,Calling an ambulance,information_need,3,16,26.25,3.275540667838924
+Simulation,Calling an ambulance,intended_action,3,16,83.75,2.520747243709028
+Simulation,Calling an ambulance,uncertainty,3,16,23.75,2.9755951785595207
+Simulation,Calling an ambulance,urgency,4,16,86.25,1.613743060919757
+Simulation,Calling an ambulance,information_need,4,16,24.375,3.411836015989045
+Simulation,Calling an ambulance,intended_action,4,16,85.9375,2.894634044227353
+Simulation,Calling an ambulance,uncertainty,4,16,23.4375,2.9125715298798527
+Simulation,Calling an ambulance,urgency,5,13,87.3076923076923,1.2162606385263
+Simulation,Calling an ambulance,information_need,5,13,15.384615384615383,2.4325212770525995
+Simulation,Calling an ambulance,intended_action,5,13,89.61538461538461,1.7414202188725798
+Simulation,Calling an ambulance,uncertainty,5,13,20.384615384615387,2.152930208172649
+Simulation,Calling an ambulance,urgency,6,4,86.25,2.393567769390845
+Simulation,Calling an ambulance,information_need,6,4,22.5,10.307764064044152
+Simulation,Calling an ambulance,intended_action,6,4,85.0,6.454972243679028
+Simulation,Calling an ambulance,uncertainty,6,4,28.75,6.574889099191458
+Simulation,Self-care,urgency,0,16,31.25,0.8539125638299666
+Simulation,Self-care,information_need,0,16,71.25,0.8539125638299666
+Simulation,Self-care,intended_action,0,16,20.0,0.0
+Simulation,Self-care,uncertainty,0,16,61.25,0.8539125638299663
+Simulation,Self-care,urgency,1,16,53.125,5.201662394529913
+Simulation,Self-care,information_need,1,16,55.625,4.079292218020179
+Simulation,Self-care,intended_action,1,16,41.5625,7.355818983408079
+Simulation,Self-care,uncertainty,1,16,41.5625,3.783702716916327
+Simulation,Self-care,urgency,2,16,55.625,5.661915900705932
+Simulation,Self-care,information_need,2,16,48.125,2.7716947282604316
+Simulation,Self-care,intended_action,2,16,46.875,7.1716310325243775
+Simulation,Self-care,uncertainty,2,16,38.125,3.442231592053814
+Simulation,Self-care,urgency,3,16,48.4375,6.827010540248686
+Simulation,Self-care,information_need,3,16,35.625,4.1801863993527055
+Simulation,Self-care,intended_action,3,16,43.75,8.297841084683816
+Simulation,Self-care,uncertainty,3,16,34.6875,4.29313284016851
+Simulation,Self-care,urgency,4,16,45.625,6.517204794490758
+Simulation,Self-care,information_need,4,16,28.125,3.7880018919389857
+Simulation,Self-care,intended_action,4,16,40.625,8.18885166959731
+Simulation,Self-care,uncertainty,4,16,31.5625,4.0496591934795365
+Simulation,Self-care,urgency,5,15,45.666666666666664,8.089774066341064
+Simulation,Self-care,information_need,5,15,24.666666666666668,4.125030062420517
+Simulation,Self-care,intended_action,5,15,42.0,9.31971796017148
+Simulation,Self-care,uncertainty,5,15,30.33333333333333,4.8172968775392295
+Simulation,Self-care,urgency,6,15,46.666666666666664,8.189230248533256
+Simulation,Self-care,information_need,6,15,22.666666666666668,3.304638394837614
+Simulation,Self-care,intended_action,6,15,42.666666666666664,8.862261705664222
+Simulation,Self-care,uncertainty,6,15,28.0,3.958114029012638

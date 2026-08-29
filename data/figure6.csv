@@ -1,0 +1,17 @@
+source,direction,confidence,outcome,mean,sem,n
+Human,higher,high,final_action,81.25,9.149063183892498,8
+Human,higher,high,information_need_change,-16.625,6.433554616228886,8
+Human,higher,low,final_action,40.0,10.0,10
+Human,higher,low,information_need_change,-19.3,7.701442866257089,10
+Human,lower,high,final_action,11.11111111111111,11.11111111111111,9
+Human,lower,high,information_need_change,-53.111111111111114,6.532917598261822,9
+Human,lower,low,final_action,7.6923076923076925,7.692307692307692,13
+Human,lower,low,information_need_change,-38.23076923076923,10.7543395213483,13
+Simulation,higher,high,final_action,90.0,0.0,4
+Simulation,higher,high,information_need_change,-57.5,2.5000000000000004,4
+Simulation,higher,low,final_action,45.0,11.902380714238085,4
+Simulation,higher,low,information_need_change,-42.5,2.5,4
+Simulation,lower,high,final_action,10.0,0.0,4
+Simulation,lower,high,information_need_change,-55.0,5.0,4
+Simulation,lower,low,final_action,20.0,0.0,4
+Simulation,lower,low,information_need_change,-30.0,8.16496580927726,4

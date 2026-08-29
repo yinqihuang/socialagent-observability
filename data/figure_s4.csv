@@ -1,0 +1,7 @@
+source,metric,n_trajectories,mean,sem
+Human,words_per_message,40,12.644255952380952,1.0294480343226902
+Human,information_actions,40,4.725,0.2749999999999999
+Human,evidence_acquired,40,8.575,0.4112013356757714
+Simulation,words_per_message,16,23.473958333333336,0.8295650477224663
+Simulation,information_actions,16,4.625,0.25617376914899
+Simulation,evidence_acquired,16,7.625,0.2015564437074637
