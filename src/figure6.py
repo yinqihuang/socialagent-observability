@@ -25,7 +25,7 @@ from style import (
 def make_figure(data_path: Path, output_path: Path) -> None:
     data = pd.read_csv(data_path)
     cells = [("lower", "low"), ("lower", "high"), ("higher", "low"), ("higher", "high")]
-    labels = ["Lower / low", "Lower / high", "Higher / low", "Higher / high"]
+    labels = ["Lower\nlow", "Lower\nhigh", "Higher\nlow", "Higher\nhigh"]
     outcomes = [("final_action", "Final action"), ("information_need_change", "Change in information need")]
     sources = ["Human", "Simulation"]
 
@@ -56,7 +56,7 @@ def make_figure(data_path: Path, output_path: Path) -> None:
                     label=source,
                     zorder=3,
                 )
-            ax.set_xticks(x, labels, rotation=25, ha="right")
+            ax.set_xticks(x, labels)
             ax.set_ylabel(ylabel)
             style_axes(ax, grid=True)
         axes[0].legend(frameon=False)

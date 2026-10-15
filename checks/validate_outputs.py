@@ -77,18 +77,18 @@ def validate_figure5() -> None:
 def validate_figure6() -> None:
     data = pd.read_csv(DATA / "figure6.csv").set_index(["source", "direction", "confidence", "outcome"])
     expected = {
-        ("Human", "higher", "high", "final_action"): 81.25,
-        ("Human", "higher", "low", "final_action"): 40.0,
-        ("Human", "lower", "high", "final_action"): 11.11111111111111,
-        ("Human", "lower", "low", "final_action"): 7.6923076923076925,
+        ("Human", "higher", "high", "final_action"): 77.77777777777777,
+        ("Human", "higher", "low", "final_action"): 37.5,
+        ("Human", "lower", "high", "final_action"): 9.090909090909092,
+        ("Human", "lower", "low", "final_action"): 7.142857142857143,
         ("Simulation", "higher", "high", "final_action"): 90.0,
         ("Simulation", "higher", "low", "final_action"): 45.0,
         ("Simulation", "lower", "high", "final_action"): 10.0,
         ("Simulation", "lower", "low", "final_action"): 20.0,
-        ("Human", "higher", "high", "information_need_change"): -16.625,
-        ("Human", "higher", "low", "information_need_change"): -19.3,
-        ("Human", "lower", "high", "information_need_change"): -53.111111111111114,
-        ("Human", "lower", "low", "information_need_change"): -38.23076923076923,
+        ("Human", "higher", "high", "information_need_change"): -16.555555555555557,
+        ("Human", "higher", "low", "information_need_change"): -21.416666666666668,
+        ("Human", "lower", "high", "information_need_change"): -60.45454545454545,
+        ("Human", "lower", "low", "information_need_change"): -41.642857142857146,
         ("Simulation", "higher", "high", "information_need_change"): -57.5,
         ("Simulation", "higher", "low", "information_need_change"): -42.5,
         ("Simulation", "lower", "high", "information_need_change"): -55.0,
@@ -113,7 +113,9 @@ def validate_supplement() -> None:
                  "Figure S3 higher/high AI alignment")
     s4 = pd.read_csv(DATA / "figure_s4.csv").set_index(["source", "metric"])
     assert_close(float(s4.loc[("Human", "words_per_message"), "mean"]),
-                 12.644255952380952, "Figure S4 human words/message")
+                 12.589107209215904, "Figure S4 human words/message")
+    if int(s4.loc[("Human", "words_per_message"), "n_trajectories"]) != 46:
+        raise AssertionError("Figure S4 must contain 46 exposed human viral-gastroenteritis trajectories")
     assert_close(float(s4.loc[("Simulation", "evidence_acquired"), "mean"]), 7.625,
                  "Figure S4 simulated evidence")
 

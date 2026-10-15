@@ -57,11 +57,11 @@ The x-axis cells are categorical and are not connected by lines. Human and Simul
 
 ## Filtering and SEM
 
-The tables preserve the manuscript's existing completion/exclusion rules and actual delivered recommendation exposure. Figure 5 is limited to turns 0–6. Figure 6 uses only the case-matched viral-gastroenteritis factorial subset. Human SEMs are computed over the observations contributing to each plotted aggregate; Figure 4 SEMs summarize variation across held-out persona groups.
+The human tables use the September 3, 2026 snapshot and preserve the manuscript's existing completion/exclusion rules and actual delivered recommendation exposure. Figure 5 is limited to turns 0–6. Figure 6 uses only the case-matched viral-gastroenteritis factorial subset. Human SEMs are computed over the observations contributing to each plotted aggregate; Figure 4 SEMs summarize variation across held-out persona groups.
 
 ## Supplementary figures
 
 - `figure_s1.csv`: reported state × recommendation level × normalized progress-bin means, bootstrap intervals, and counts from the verified V8 simulation analysis.
 - `figure_s2.csv`: standardized transition/convergence coefficients with persona-clustered uncertainty for each experimental input and outcome.
 - `figure_s3.csv`: dialogue-policy log-odds coefficients and terminal AI-advice/triage-reference alignment proportions, distinguished by `table`.
-- `figure_s4.csv`: source × interaction-channel means and SEMs for 21 recommendation-exposed human and 16 simulated viral-gastroenteritis trajectories. It contains no identifiers or free text.
+- `figure_s4.csv`: source × interaction-channel means and SEMs for 46 recommendation-exposed human and 16 simulated viral-gastroenteritis trajectories. It contains no identifiers or free text.

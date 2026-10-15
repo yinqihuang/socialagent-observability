@@ -29,6 +29,8 @@ python checks/validate_outputs.py
 
 The scripts write vector PDFs to `figures/`. Figures 3--6 and S1--S4 use one centralized visual system in `src/style.py`.
 
+The `manuscript/` directory contains the V3 camera-ready PDF and its compile-ready LaTeX source. Human-facing aggregate figure tables reflect the September 3, 2026 data snapshot (109 completed participants); participant-level records are not included.
+
 ## Recompute the dynamic simulated-user analysis
 
 ```bash
