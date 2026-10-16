@@ -1,4 +1,4 @@
-# Anonymous reproducibility materials
+# Reproducibility materials
 
 This repository accompanies *Do Simulated Users Reveal Behaviorally Observable States During Human--LLM Joint Decision Making?* It contains analysis-ready simulated-user trajectories, aggregate/de-identified human summaries, deterministic plotting code, and validation checks for the manuscript figures.
 
